@@ -9,7 +9,7 @@ const App = () => {
       <button
         onClick={() => {
           channel.bind("some-event", (data) => {
-            console.log(hello);
+            console.log(data);
           });
         }}
       >
